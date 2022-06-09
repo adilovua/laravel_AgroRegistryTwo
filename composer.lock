@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bf9663362603c2a7f2c63007c62bb38",
+    "content-hash": "6dc3281b2ec49ecc527a33bc73148000",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -6940,16 +6940,16 @@
         },
         {
             "name": "yab/laravel-scout-mysql-driver",
-            "version": "v5.0.0",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yabhq/laravel-scout-mysql-driver.git",
-                "reference": "501babf30d1a8b802b7ac3e0f3ffc220fd20120d"
+                "reference": "e8dadf95ccf87efd79c4e1d0a8356e37e602e9bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yabhq/laravel-scout-mysql-driver/zipball/501babf30d1a8b802b7ac3e0f3ffc220fd20120d",
-                "reference": "501babf30d1a8b802b7ac3e0f3ffc220fd20120d",
+                "url": "https://api.github.com/repos/yabhq/laravel-scout-mysql-driver/zipball/e8dadf95ccf87efd79c4e1d0a8356e37e602e9bc",
+                "reference": "e8dadf95ccf87efd79c4e1d0a8356e37e602e9bc",
                 "shasum": ""
             },
             "require": {
@@ -6970,12 +6970,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Yab\\MySQLScout\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Yab\\MySQLScout\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -6994,9 +6994,9 @@
             "description": "MySQL driver for Laravel Scout.",
             "support": {
                 "issues": "https://github.com/yabhq/laravel-scout-mysql-driver/issues",
-                "source": "https://github.com/yabhq/laravel-scout-mysql-driver/tree/v5.0.0"
+                "source": "https://github.com/yabhq/laravel-scout-mysql-driver/tree/v5.1.0"
             },
-            "time": "2021-08-10T10:20:29+00:00"
+            "time": "2021-12-08T05:53:37+00:00"
         }
     ],
     "packages-dev": [
@@ -9510,5 +9510,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
